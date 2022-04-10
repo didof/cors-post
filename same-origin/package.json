@@ -1,0 +1,19 @@
+{
+  "name": "same-origin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "fastify"
+  ],
+  "author": "didof",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "fastify": "^3.28.0",
+    "fastify-static": "^4.6.1"
+  }
+}
