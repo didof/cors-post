@@ -12,7 +12,11 @@
     <p>Nickname: <output></output></p>
 
     <script>
-      fetch("/me")
+      const request = new Request("/me", {
+        method: "GET",
+      });
+
+      fetch(request)
         .then((res) => res.json())
         .then((res) => {
           document.querySelector("output").textContent = res.nickname;
