@@ -1,0 +1,27 @@
+{
+  "name": "cross-origin-preflight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://didof@github.com/didof/cors-post.git"
+  },
+  "keywords": [],
+  "author": "didof <didonato.fr@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/didof/cors-post/issues"
+  },
+  "homepage": "https://github.com/didof/cors-post#readme",
+  "dependencies": {
+    "fastify": "^3.28.0",
+    "fastify-cors": "^6.0.3",
+    "fastify-static": "^4.6.1"
+  },
+  "type": "module"
+}
